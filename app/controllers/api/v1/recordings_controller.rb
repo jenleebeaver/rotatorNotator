@@ -1,4 +1,5 @@
 class Api::V1::RecordingsController < ApplicationController
+    before_action :find_recording, only: [:update]
 
     def index
         @recordings = Recording.all
