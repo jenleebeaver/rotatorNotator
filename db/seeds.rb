@@ -6,8 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+User.create(name:"Jennifer Beaver", recording_id: 1)
+
 Recording.create(title: "Seed_Recording", melody: "La_la.wav")
 
-Note.create(recording_id: 1, pitch: "C")
-Note.create(recording_id: 1, pitch: "E")
-Note.create(recording_id: 1, pitch: "G")
+# Note.create(recording_id: 1, pitch: "C")
+# Note.create(recording_id: 1, pitch: "E")
+# Note.create(recording_id: 1, pitch: "G")

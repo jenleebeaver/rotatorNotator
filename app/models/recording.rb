@@ -1,3 +1,4 @@
 class Recording < ApplicationRecord
-    has_many :notes 
+    # has_many :notes 
+    belongs_to :recordings
 end
