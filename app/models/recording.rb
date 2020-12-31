@@ -1,4 +1,4 @@
 class Recording < ApplicationRecord
-    # has_many :notes 
-    belongs_to :recordings
+     # has_many :notes 
+     belongs_to :users
 end

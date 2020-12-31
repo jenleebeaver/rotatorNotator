@@ -2,8 +2,6 @@
 
 one:
   name: MyString
-  recording_id: 1
 
 two:
   name: MyString
-  recording_id: 1
