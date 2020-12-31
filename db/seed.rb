@@ -1,4 +1,4 @@
 
-User.create(name:"Jennifer Beaver")
+users = User.create([{name:"Jennifer Beaver"}])
 
-Recording.create(user_id: 1, title:"New_Recording", melody:"audio_file.wav")
+recordings = Recording.create([{title:"New_Recording", melody:"audio_file.wav", user_id: 1}])
